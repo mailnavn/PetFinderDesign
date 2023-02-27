@@ -2,20 +2,11 @@
   "UserId": {
     "S": "f850d1b2-5096-4b8a-b07a-64cb59f7a484"
   },
-  "PetId": {
-    "S": "8ef5c354-277e-49ad-bb6c-8fef26887f65"
-  },
   "EmailId":{
      "S": "John@testdomain.com"
   },
     "Found": {
     "B": ""
-  },
-  "PetNumber": {
-    "N": "1"
-  },
-  "PetSightingId": {
-    "S": "8ef5c354-277e-49ad-bb6c-8fef26887a65"
   },
   "PetFoundById": {
     "S": "cec8c035-e867-4298-b1b3-9dd50c410a2b"

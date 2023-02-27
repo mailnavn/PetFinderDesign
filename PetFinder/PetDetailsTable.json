@@ -5,20 +5,26 @@
   "Type": {
     "S": "Dog"
   },
-  "Name":{
-	 "S": "Alfie"
+  "Name": {
+    "S": "Alfie"
   },
-  "Breed":{
-     "S": "German Shepard"
+  "Breed": {
+    "S": "German Shepard"
   },
-  "Description":{
-     "S": "Lost on date 14-Feb-2022. Alfie is 4 Year old and friendly"
+  "Description": {
+    "S": "Lost on date 14-Feb-2022. Alfie is 4 Year old and friendly"
   },
-  "Latitude":{
-	  "N": "22.9068"  
+  "Location": {
+    "M": {
+      "Latitude": {
+        "N": "22.9068"
+      },
+      "Longitude": {
+        "N": "-43.1729"
+      }
+    }
   },
-  "Longitude":{
-	  "N": "-43.1729"
+  "GeoHash": {
+    "S": "u09tyxk4j0k5"
   }
- 
 }
