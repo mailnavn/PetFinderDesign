@@ -26,5 +26,9 @@
   },
   "GeoHash": {
     "S": "u09tyxk4j0k5"
+  },
+  "OwnerId":{
+	  "S": "9ef5c354-277e-49ad-bb6c-8fef26887f65"
   }
+  
 }

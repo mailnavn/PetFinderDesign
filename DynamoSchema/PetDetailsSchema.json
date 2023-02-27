@@ -1,0 +1,51 @@
+{
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "PetId",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "OwnerId",
+      "AttributeType": "S"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "PetId",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "OwnerId",
+      "KeyType": "RANGE"
+    }
+  ],
+  "GlobalSecondaryIndexes": [
+    {
+      "IndexName": "PetTypeIndex",
+      "KeySchema": [
+        {
+          "AttributeName": "Type",
+          "KeyType": "HASH"
+        },
+        {
+          "AttributeName": "PetId",
+          "KeyType": "RANGE"
+        }
+      ],
+      "Projection": {
+        "ProjectionType": "ALL"
+      },
+      "IndexStatus": "ACTIVE",
+      "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+      }
+    }
+  ],
+  "LocalSecondaryIndexes": [],
+  "TableName": "PetDetailsTable",
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  }
+}
