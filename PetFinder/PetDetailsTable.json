@@ -1,0 +1,24 @@
+{
+  "PetId": {
+    "S": "8ef5c354-277e-49ad-bb6c-8fef26887f65"
+  },
+  "Type": {
+    "S": "Dog"
+  },
+  "Name":{
+	 "S": "Alfie"
+  },
+  "Breed":{
+     "S": "German Shepard"
+  },
+  "Description":{
+     "S": "Lost on date 14-Feb-2022. Alfie is 4 Year old and friendly"
+  },
+  "Latitude":{
+	  "N": "22.9068"  
+  },
+  "Longitude":{
+	  "N": "-43.1729"
+  }
+ 
+}

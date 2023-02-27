@@ -1,0 +1,21 @@
+{
+  "SightingId": {
+    "S": "b454ace9-0968-4a49-9ed3-0046e1867649"
+  },
+  "PetId": {
+    "S": "c2b7a833-697f-494a-b217-a52715548999"
+  },
+  "Latitude":{
+	  "N": "22.9068"  
+  },
+  "Longitude":{
+	  "N": "-43.1729"
+  }
+  "SpottedUserId":{
+	  "S": "3f441706-339f-46b8-9fe3-c80d3315130a"
+  },
+  "Comments": {
+      "S": "Spotted the dog in the farm at location mentioned above"
+  }	  
+ 
+}
