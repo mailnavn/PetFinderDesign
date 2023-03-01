@@ -5,6 +5,9 @@ The Petfinder consits of 3 main components
 2. Pet finder service (core backend)
 3. Payment service (for reward)
 
+
+<img width="620" alt="HighLevelDiagram" src="https://user-images.githubusercontent.com/25676723/222282806-6f95ecce-1118-4cf0-92eb-020e1820acae.png">
+
 ## UI Web App
 - Containerized Web API 
 - Hosted on the Fargate 
