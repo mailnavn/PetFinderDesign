@@ -14,21 +14,15 @@
   "Description": {
     "S": "Lost on date 14-Feb-2022. Alfie is 4 Year old and friendly"
   },
-  "Location": {
-    "M": {
-      "Latitude": {
-        "N": "22.9068"
-      },
-      "Longitude": {
-        "N": "-43.1729"
-      }
-    }
-  },
+  
   "GeoHash": {
     "S": "u09tyxk4j0k5"
   },
   "OwnerId":{
 	  "S": "9ef5c354-277e-49ad-bb6c-8fef26887f65"
+  }
+  "LostDate": {
+	  "N": "1644825600"
   }
   
 }
