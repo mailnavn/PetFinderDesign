@@ -5,10 +5,14 @@
   "EmailId":{
      "S": "John@testdomain.com"
   },
-    "Found": {
-    "B": ""
+  "FirstName": {
+    "S": "John"
   },
-  "PetFoundById": {
-    "S": "cec8c035-e867-4298-b1b3-9dd50c410a2b"
-  }
+  "LastName": {
+    "S": "Baker"
+  },
+  "Active": {
+	 "BOOL" : true
+  },
+
 }

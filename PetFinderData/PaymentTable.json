@@ -1,0 +1,45 @@
+{
+  "PayeeUserId": {
+    "S": "f850d1b2-5096-4b8a-b07a-64cb59f7a484"
+  },
+  "PaymentAmount":{
+     "N": "100"
+  },
+  "Currency": {
+    "s": "GBP"
+  },
+  "PaymentStatus": {
+    "S": "Completed"
+  },
+  "Comments": {
+	 "S" : "Thanks for finding pet"
+  }
+  "PaidByUserId": {
+	 "S": "e850d1b2-5096-4b8a-b07a-64cb59f7a484" 
+  }
+  "Date":{
+	 "N": "1644825600"
+  },
+  "PaymentType":{
+	 "S": "Bank Transfer"
+  },
+  "AccountNumber":{
+	 "M": {
+		"Sort": {
+			"N": "000001"
+		},
+		"Account": {
+			"N": "111111111"
+      }
+    }
+  },
+  "Consent": {
+	    "BOOL": true
+  }
+  "PaymentId": {
+	  "N": "e850d1b2-5096-4b8a-b07a-64cb59f7a484"  
+  },
+  "PaymentGatewayReference":{
+	  "S": "2uowuerowr980wr0w80"
+  }
+}
